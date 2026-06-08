@@ -159,9 +159,9 @@ Instead of completing long tutorials first, concepts are immediately applied int
 - [x] MongoDB Atlas setup
 - [x] MongoDB Compass setup
 - [x] GitHub repository setup
-- [ ] JavaScript backend essentials
-- [ ] Express server setup
-- [ ] MongoDB integration
+- [x] JavaScript backend essentials
+- [x] Express server setup
+- [x] MongoDB integration
 - [ ] Authentication system
 - [ ] Frontend-backend integration
 - [ ] Role-based access

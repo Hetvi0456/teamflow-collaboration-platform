@@ -241,3 +241,78 @@ This project uses:
 - Mongoose for database interaction
 
 The database connection is initialized before routes start running.
+
+---
+
+# Connection Flow
+
+Application Starts
+
+↓
+
+server.js
+
+↓
+
+connectDB()
+
+↓
+
+mongoose.connect()
+
+↓
+
+MongoDB Atlas
+
+↓
+
+Connection Success
+
+↓
+
+Application Can Use Database
+
+---
+
+# Why A Database Connection Is Required
+
+Without a database connection:
+
+- Tasks cannot be stored.
+- Tasks cannot be retrieved.
+- User accounts cannot be saved.
+- Application data disappears after restart.
+
+The database provides permanent storage for the application.
+
+---
+
+# Backend Architecture
+
+Node.js
+↓
+Express
+↓
+Mongoose
+↓
+MongoDB Atlas
+
+Mongoose acts as the bridge between the backend application and MongoDB.
+
+---
+
+# TeamFlow Example
+
+Current Flow:
+
+Frontend
+↓
+HTTP Request
+↓
+Express Route
+↓
+Mongoose
+↓
+MongoDB Atlas
+↓
+Response Returned To Frontend
