@@ -15,8 +15,15 @@
 // }
 
 
-import SignupScreen from "./signup";
+// import SignupScreen from "./signup";
+
+// export default function Index() {
+//   return <SignupScreen />;
+// }
+
+
+import LoginScreen from "./login";
 
 export default function Index() {
-  return <SignupScreen />;
+  return <LoginScreen />;
 }
